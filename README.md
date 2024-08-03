@@ -2,66 +2,42 @@
 
 <img src="https://images.prismic.io/ieeemuj/Zqu58B5LeNNTxuyE_BreakingBugBanner.png?auto=format,compress" alt="Breaking Bug Poster">
 
-## Table of Content
-- [Introduction](#introduction)
-- [Pre-requisites](#pre-requisites)
-- [How to get started?](#how-to-get-started)
-- [Setting up the project](#setting-up-the-project)
-- [Project Information](#project-information)
-- [Credits](#made-by-ieee-computer-society--manipal-university-jaipur)
-
 ### Introduction
 This repository contains the backend code for the Breaking Bug event. The event is organized by IEEE Computer Society, Manipal University Jaipur.\
 
 Breaking Bug is an electrifying virtual showdown for tech enthusiasts and coding maestros! An exciting and challenging event where participants step into the shoes of skilled developers and problem-solvers! In this unique competition, their mission is to identify and fix bugs in a GitHub repository across three diverse domains: Frontend, Backend, and Machine Learning (ML).
 
-
 ### Pre-requisites
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- XGBoost
+Here are the pre-requisites in point form:
+### Python libraries:
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn (metrics, preprocessing, model selection, ensemble)
+xgboost
+scipy
+
+### My Project Information
+| Model                    | Cross-Validation Accuracy | Test Accuracy |
+|--------------------------|---------------------------|---------------|
+| Logistic Regression      | 0.5169                    | 0.4565        |
+| Gradient Boosting        | 0.6329                    | 0.5543        |
+| KNeighbors Classifier    | 0.5785                    | 0.5435        |
+| Decision Tree Classifier | 0.6026                    | 0.5435        |
+| Random Forest Classifier | 0.6498                    | 0.5652        |
+| AdaBoost Classifier      | 0.5652                    | 0.4783        |
+| XGBoost Classifier       | 0.6352                    | 0.5978        |
+| Support Vector Machine   | 0.5942                    | 0.5000        |
+| Naive Bayes Classifier   | 0.3696                    | 0.3043        |
+
+Best Model: XGBClassifier
+Best Model Cross-Validation Accuracy: 0.3696
+Best Model Test Accuracy: 0.5978
 
 
-### How to get started?
-
-- Download the code and dataset from the provided links.
-- Set up your development environment with the pre-requisites listed above.
-- Follow the steps mentioned in the [Setting up the project](#setting-up-the-project)  section.
-- Use any platform or IDE to fix the bug, test, and train your model.
-- After making the changes, push your code to your cloned repository.
-- Submit the link to your updated repository or results through the specified form.
-
-
-### Setting up the project
-
-- Fork the repository by clicking on the `Fork` button on the top right corner of the page.
-
-- Clone the repository in your local system.
-```bash
-git clone https://github.com/<your-github-username>/BreakingBug-ML.git
-```
-
-- Navigate to the project directory.
-  ```bash
-  cd BreakingBug-ML
-  ```
-
-- Download the dataset `dataset.csv`.
-
-- Open the `bugged_file.py` and review the code to identify and fix the bugs.
-
-- Test and train your model using the dataset.
-
-- After making the necessary changes, run the script to ensure everything works correctly.
-
-- Push your changes to your cloned repository.
-
-- Submit the link to your updated repository or results through the form link provided.
-
-
+### Given Project Information (Breaking-Bug):
 ### Project Information
 
 Here’s a revised summary focusing on the ML-related details:
