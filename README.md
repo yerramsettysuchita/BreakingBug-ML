@@ -3,7 +3,7 @@
 <img src="https://images.prismic.io/ieeemuj/Zqu58B5LeNNTxuyE_BreakingBugBanner.png?auto=format,compress" alt="Breaking Bug Poster">
 
 ### Introduction
-This repository contains the backend code for the Breaking Bug event. The event is organized by IEEE Computer Society, Manipal University Jaipur.\
+This repository contains the backend code for the Breaking Bug event. The event is organized by IEEE Computer Society, Manipal University Jaipur.
 
 Breaking Bug is an electrifying virtual showdown for tech enthusiasts and coding maestros! An exciting and challenging event where participants step into the shoes of skilled developers and problem-solvers! In this unique competition, their mission is to identify and fix bugs in a GitHub repository across three diverse domains: Frontend, Backend, and Machine Learning (ML).
 
